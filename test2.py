@@ -9,7 +9,9 @@ from PIL import Image
 import os
 
 # Open a file
-path = "C:/Users/Kartik/Desktop/Green"
+# change path name according to your source path
+# The directory should contain bunch of images that you want to test
+path = "C:/Users/Kartik/Desktop/Green"     
 dirs = os.listdir( path )
 #list1 = []
 # This would print all the files and directories
